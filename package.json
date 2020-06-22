@@ -30,7 +30,7 @@
     "bootstrap": "^4.5.0",
     "core-js": "^3.6.5",
     "ep-saas-component-library": "^2.6.3",
-    "jquery": "^1.9.1",
+    "jquery": "^3.5.1",
     "ngx-mask": "^9.1.2",
     "ngx-mat-select-search": "^2.2.0",
     "ngx-spinner": "^9.0.2",
