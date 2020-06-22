@@ -1,0 +1,30 @@
+<app-api-error-infobox *ngIf="error" [err]="error" (closeErrorBox)="closeApiErrorBox()"></app-api-error-infobox>
+<ng-container *ngIf="employeeList">
+  <div class="d-flex flex-column w-100">
+    <!-- Title -->
+    <ng-container>
+      <div class="d-flex flex-row w-100 justify-content-center p-5">
+        <h2>Second practice: Two nested components</h2>
+      </div>
+    </ng-container>
+    <!-- Content -->
+    <ng-container>
+      <div class="d-flex flex-row w-100 justify-content-around">
+        <!-- Employee names component -->
+        <ng-container>
+          <div class="d-flex w-25">
+            <app-nested-form-one
+              [employeeList]="employeeList"
+            ></app-nested-form-one>
+          </div>
+        </ng-container>
+        <!-- Nested form two -->
+        <ng-container>
+          <div class="d-flex w-25">
+            <app-nested-form-two></app-nested-form-two>
+          </div>
+        </ng-container>
+      </div>
+    </ng-container>
+  </div>
+</ng-container>

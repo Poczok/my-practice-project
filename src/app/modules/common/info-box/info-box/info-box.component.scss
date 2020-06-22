@@ -1,0 +1,35 @@
+:host {
+  width: 100%;
+}
+
+.icon-size {
+  transform: scale(0.66);
+}
+
+.warning {
+  background-color: #fff4d6;
+  color: #f3b31d;
+  font-weight: 500;
+  .button-color {
+    color: #f3b31d;
+  }
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  font-weight: 500;
+  .button-color {
+    color: #155724;
+  }
+}
+
+.error {
+  background-color: #f8d7daad;
+  color: #721c24;
+  font-weight: 500;
+  .button-color {
+    color: #721c24;
+    font-weight: 500;
+  }
+}

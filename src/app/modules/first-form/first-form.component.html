@@ -1,0 +1,95 @@
+<div class="d-flex flex-wrap w-100">
+  <div class="d-flex flex-row w-100 justify-content-center">
+    <h3>Random form 1</h3>
+  </div>
+  <!-- Add form -->
+  <div class="d-flex w-100 justify-content-center">
+    <form [formGroup]="form" autocomplete="off">
+      <div class="d-flex w-100 flex-wrap">
+        <!-- Name Input -->
+        <ng-container>
+          <div class="d-flex w-100">
+            <storybook-input
+              id="'nameInput'"
+              class="w-100"
+              [control]="nameControl"
+              label=" {{ 'first.name' | translate }}"
+              [required]="true"
+              [errorTpl]="nameControlErrTpl"
+              [submitted]="form.submitted"
+            ></storybook-input>
+            <ng-template #nameControlErrTpl>
+              <app-validation [errors]="nameControl?.errors"></app-validation>
+            </ng-template>
+          </div>
+        </ng-container>
+        <!-- Text Input -->
+        <ng-container>
+          <div class="d-flex w-100">
+            <storybook-textarea
+              id="'textInput'"
+              class="w-100 commentSize"
+              [control]="textControl"
+              label="{{ 'first.text' | translate }}"
+              [required]="true"
+              [errorTpl]="textControlErrTpl"
+              [submitted]="form.submitted"
+            >
+            </storybook-textarea>
+            <ng-template #textControlErrTpl>
+              <app-validation [errors]="textControl?.errors"></app-validation>
+            </ng-template>
+          </div>
+        </ng-container>
+        <!-- Buttons -->
+        <ng-container>
+          <div class="d-flex justify-content-around w-100">
+            <storybook-function-button
+              [id]="'save'"
+              [buttonText]="'Save'"
+              (clicked)="save()"
+            ></storybook-function-button>
+            <storybook-function-button
+              [id]="'back'"
+              [buttonText]="backOrCancelBtn"
+              (clicked)="backOrCancel()"
+            ></storybook-function-button>
+          </div>
+        </ng-container>
+      </div>
+    </form>
+  </div>
+  <!-- Display comments -->
+  <div class="d-flex flex-row w-100 flex-wrap">
+    <div class="card w-25" *ngFor="let comment of data; index as i">
+      <div class="card-body">
+        <div class="d-flex justify-content-end">
+          <ng-container>
+          <storybook-function-button
+            id="'edit'"
+            buttonText="Edit"
+            [level]="'secondary'"
+            [type]="'edit'"
+            [disabled]="!viewMode"
+            (clicked)="edit(i)"
+          >
+          </storybook-function-button>
+          <storybook-function-button
+            id="'delete'"
+            buttonText="Del"
+            [level]="'secondary'"
+            [type]="'discard'"
+            [disabled]="!viewMode"
+            (clicked)="delete(comment.id)"
+          >
+          </storybook-function-button>
+          </ng-container>
+        </div>
+          <p class="d-flex justify-content-center">Név: {{ comment.name }}</p>
+          <p class="d-flex justify-content-start">
+            Komment: {{ comment.body }}
+          </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="d-flex flex-row flex-wrap w-100">
+  <p>{{ employee.name }}</p>
+  <storybook-svg-button
+    [id]="'edit'"
+    [type]="'edit'"
+    [tooltipText]="'Edit name'"
+    (clicked)="edit(employee.id)"
+  ></storybook-svg-button>
+</div>

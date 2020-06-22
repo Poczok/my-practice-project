@@ -1,0 +1,21 @@
+{
+  "apiUrl": "http://192.168.30.207:5201",
+  "adminApiUrl": "http://plaveoo-old-01:50041",
+  "idleTimeout": 3600,
+  "auth0": {
+    "domain": "plaveoo.eu.auth0.com",
+    "clientId": "<your client id>",
+    "redirectUrl": "http://localhost:4200",
+    "audience": "http://api.hr.eu",
+    "allowedConnections": ["Site"],
+    "claims": {
+      "email": "http://api.hr.hu/email",
+      "subscription": "http://api.hr.hu/subscription",
+      "language": "http://api.hr.hu/subscription"
+    }
+  },
+  "o365": {
+    "clientId": "<your client id>",
+    "redirectUri": "http://localhost:5000/integrate"
+  }
+}

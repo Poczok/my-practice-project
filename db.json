@@ -1,0 +1,604 @@
+{
+  "comments": [
+    {
+      "name": "Krisztián",
+      "body": "Szolonna",
+      "id": 1
+    },
+    {
+      "name": "Szél Lara",
+      "body": "Sajtos bégel",
+      "id": 2
+    },
+    {
+      "name": "Olga",
+      "body": "Szép pult",
+      "id": 3
+    },
+    {
+      "name": "Ilonka",
+      "body": "Szép padló",
+      "id": 4
+    },
+    {
+      "name": "Helga",
+      "body": "CCC cipő",
+      "id": 5
+    },
+    {
+      "name": "Cicero",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n",
+      "id": 6
+    },
+    {
+      "name": "Teszt Szabolcs",
+      "body": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure",
+      "id": 7
+    }
+  ],
+  "employees": [
+    {
+      "dateOfBirth": "1995-03-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "42fbaf98-ca13-414c-80da-093e0ebb2e06",
+      "name": "Janos"
+    },
+    {
+      "dateOfBirth": "1981-01-11T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "bacbd02d-d24b-4927-83f2-0c192c13d0c0",
+      "name": "Kovács János"
+    },
+    {
+      "dateOfBirth": "1992-06-04T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "Back office",
+      "id": "ac113029-25b3-4cd8-9166-121cfe660fcf",
+      "name": "HR Csabi - modul vezetőw"
+    },
+    {
+      "dateOfBirth": "1993-03-05T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "5a4659ca-3db7-47d4-bfad-140df2b76cdd",
+      "name": "Almadi Janos"
+    },
+    {
+      "dateOfBirth": "2000-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "0ff39580-0160-4ae1-ac8c-18acba29d89c",
+      "name": "Kopasz Jóska"
+    },
+    {
+      "dateOfBirth": "2000-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "1394aa4e-d5d2-487c-a42c-1983741b4882",
+      "name": "Kopasz Jóska"
+    },
+    {
+      "dateOfBirth": "1990-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "bcf663d4-18ca-4a5a-a18b-1b2306cf8bee",
+      "name": "Test Alany"
+    },
+    {
+      "dateOfBirth": "1990-01-01T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "ce5d6443-c2df-4340-b32d-5e5001991a66",
+      "id": "c899c1b2-da4e-4d44-8334-1e1ad42e6b8e",
+      "name": "Dolgozgató dolgozó"
+    },
+    {
+      "dateOfBirth": "2000-01-03T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "Back office",
+      "id": "d77d8045-aaec-4992-9f4e-20798016a84f",
+      "name": "Szarvas Gitta"
+    },
+    {
+      "dateOfBirth": "2004-07-08T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "Back office",
+      "id": "d877df47-5f31-4db4-8f8d-2cd339a8e0dd",
+      "name": "Látom"
+    },
+    {
+      "dateOfBirth": "1989-11-16T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "fdc152a1-4189-4e5f-b4d3-3383e8f4003b",
+      "name": "Zsoldos Fábián"
+    },
+    {
+      "dateOfBirth": "1977-02-04T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "5c83d4d4-8634-4f26-858b-33b9eb8be9e9",
+      "name": "Szél Karolina"
+    },
+    {
+      "dateOfBirth": "1988-11-23T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "31daae8c-11dc-4480-84e8-3708d8ceb6c4",
+      "name": "Kincses Gizella"
+    },
+    {
+      "dateOfBirth": "1990-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "9e081a3e-41de-41da-8ed4-421246e1823c",
+      "name": "CRM Béla"
+    },
+    {
+      "dateOfBirth": "2000-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "76617212-65d4-452c-94e5-42ede1561b3e",
+      "name": "Kopasz Jóska"
+    },
+    {
+      "dateOfBirth": "1994-03-11T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "b92d244f-af0b-4b7b-a5e2-451788ffd4a5",
+      "name": "Srác"
+    },
+    {
+      "dateOfBirth": "1960-07-22T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "Szoftverfejlesztés",
+      "id": "bb15cc7c-651e-4f20-b319-457422eac712",
+      "name": "Illés Viktor12"
+    },
+    {
+      "dateOfBirth": "1991-05-05T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "51c5a7e2-d574-4bb6-aa22-4640ed392214",
+      "name": "LA"
+    },
+    {
+      "dateOfBirth": "1969-02-22T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "58ad83ed-a42a-4ee8-8edc-46f1ee9ad176",
+      "name": "Oldalsó Sándor"
+    },
+    {
+      "dateOfBirth": "2003-09-03T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "ec32e960-7828-42cf-857d-b56023c31854",
+      "organizationalUnitName": "Back office",
+      "id": "d368b0e2-53b7-43b0-a47c-490861cc3b1c",
+      "name": "Gáborka"
+    },
+    {
+      "dateOfBirth": "1999-09-09T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "690df321-371b-44d0-8807-4926bdeabae6",
+      "name": "Kérész Eleonóra"
+    },
+    {
+      "dateOfBirth": "1995-06-14T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "c9971b5e-5247-46d6-a7d7-49a676eafc3f",
+      "name": "Lacika"
+    },
+    {
+      "dateOfBirth": "1960-07-13T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "126463eb-1878-4559-b531-49d0b5065800",
+      "name": "Illés Viktor"
+    },
+    {
+      "dateOfBirth": "1998-03-06T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "dbf175e0-68fd-4740-9855-4a38a73c7584",
+      "name": "Új dolgozó"
+    },
+    {
+      "dateOfBirth": "2000-01-06T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "134fb5fd-4094-4f27-a252-5162a664732a",
+      "name": "Konkrét Károly"
+    },
+    {
+      "dateOfBirth": "1977-06-10T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "7de6c394-54c8-4a98-83ed-527b7c55fd21",
+      "name": "Utcai Pál"
+    },
+    {
+      "dateOfBirth": "1992-02-02T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "80ffd3e1-600f-42fa-9e77-55035c115044",
+      "name": "Szép Izabella"
+    },
+    {
+      "dateOfBirth": "1977-02-04T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "baec371e-3f7e-4241-a9cb-57763ef5a78f",
+      "name": "Szél Karolina"
+    },
+    {
+      "dateOfBirth": "2000-02-13T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "9a16db3b-bd0c-48f0-81fe-5a31f008b468",
+      "name": "Szilvási Zoltán"
+    },
+    {
+      "dateOfBirth": "1979-05-25T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "avatarId": "0e90e6fa-d591-4dea-b9e8-0f0cb5c2831d",
+      "id": "e4000d35-627d-4ce5-a922-5de20958d7ad",
+      "name": "Horváth Attila"
+    },
+    {
+      "dateOfBirth": "2004-06-18T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "avatarId": "bf2e56b3-27a1-4fae-a27f-1ba886102a35",
+      "id": "92f32f28-1f93-4ab4-ad83-61cafc550ba3",
+      "name": "Nagy Imre"
+    },
+    {
+      "dateOfBirth": "1991-11-24T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "08a7cd27-b969-4eb1-b775-65e19ffd02eb",
+      "name": "Kovács István Péter"
+    },
+    {
+      "dateOfBirth": "1992-10-10T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "d513ffc4-5450-4797-8bfb-68332ba358d2",
+      "name": "Zsoldos Cecília"
+    },
+    {
+      "dateOfBirth": "1988-01-25T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "K2",
+      "id": "b02a26da-f9f9-454d-8388-742a6ba667d1",
+      "name": "horváth Fiktív Attila"
+    },
+    {
+      "dateOfBirth": "1999-09-09T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "dc3111e9-e804-436e-9f6c-74957afebff2",
+      "name": "Kalácsos Kata"
+    },
+    {
+      "dateOfBirth": "2004-07-05T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "43d33474-3299-4ab1-86dc-9fafec2b14fd",
+      "organizationalUnitName": "K1",
+      "id": "9d9dd74c-025b-45da-8dc7-77d28b9f79b8",
+      "name": "HR Béla - dolgozó23"
+    },
+    {
+      "dateOfBirth": "1994-07-15T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "44187fe4-44e3-4309-87b2-79ae80580749",
+      "name": "Viktor bohóc"
+    },
+    {
+      "dateOfBirth": "1996-01-11T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "571c3e01-d35c-449e-a6ba-79fd00c79785",
+      "name": "Próba mask 2"
+    },
+    {
+      "dateOfBirth": "1960-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "71e160cd-5bf2-4be7-8980-7cc84f2e8090",
+      "name": "Almási Anikó"
+    },
+    {
+      "dateOfBirth": "2004-06-16T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "549cf1d2-b6d3-411d-9a4f-b32e30b933aa",
+      "id": "7f5ab24c-7af7-4419-b842-80c81d4cdf1f",
+      "name": "HR Karesz - felettes"
+    },
+    {
+      "dateOfBirth": "1997-03-26T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "7458ad34-dc0b-4401-912a-4a2ea0f63e75",
+      "id": "6e5e9bd3-7bbd-4977-9030-8519e78a482d",
+      "name": "Sipos Gergő"
+    },
+    {
+      "dateOfBirth": "0001-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "c190dc0e-14ae-4d41-bc0d-8845e7aa5a02",
+      "name": "Kúpvirág"
+    },
+    {
+      "dateOfBirth": "2000-05-20T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "1f1beb8b-b285-4ea4-8107-8fb96621d5a8",
+      "organizationalUnitName": "Szoftverfejlesztés",
+      "id": "0c266557-6ccb-49d8-8851-8e704325c0c8",
+      "name": "Angular9"
+    },
+    {
+      "dateOfBirth": "2004-06-26T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "avatarId": "a0f7e725-a390-4285-ac6f-c1359dfa0ea2",
+      "organizationalUnitName": "K2",
+      "id": "e528d238-8aad-4e88-97fc-95f5e137a7b7",
+      "name": "Test Elek"
+    },
+    {
+      "dateOfBirth": "1994-06-16T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "avatarId": "eaba7bf6-1f59-42fa-8478-2b504ac157b2",
+      "id": "cdcbc272-b9ec-41f5-8708-96253327930c",
+      "name": "Füri Milánné"
+    },
+    {
+      "dateOfBirth": "1981-04-13T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "34c91a50-b08c-4494-ac0d-9b6eec625eb5",
+      "name": "Jenei Károly"
+    },
+    {
+      "dateOfBirth": "1992-07-30T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "Értékesítés",
+      "id": "d893e0a6-ccbd-481f-aa35-9b79916f137a",
+      "name": "Kovács Sára"
+    },
+    {
+      "dateOfBirth": "1977-02-04T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "e2242005-94d3-4119-8b56-9febcc3e6b85",
+      "name": "Szél Karolina"
+    },
+    {
+      "dateOfBirth": "1981-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "deeaeb54-96a9-41a5-836a-a31ebc1a3a27",
+      "name": "kk"
+    },
+    {
+      "dateOfBirth": "1994-02-15T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "26ffcc52-88d5-4087-ab00-a373bc151c34",
+      "name": "HR Dolli - asszisztens"
+    },
+    {
+      "dateOfBirth": "1997-06-11T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "9554a31c-d87f-441f-8635-a4f49a591c6b",
+      "name": "Almás Lajos"
+    },
+    {
+      "dateOfBirth": "1997-05-15T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "08d1350f-a6ab-4f11-81cd-a8c7124cc8c0",
+      "name": "Szeplőssy Réka"
+    },
+    {
+      "dateOfBirth": "1990-10-10T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "cf672152-4435-4fd0-8b8b-ab6c08c885f0",
+      "name": "Bélás János"
+    },
+    {
+      "dateOfBirth": "1999-06-18T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "9209d75d-2fc0-4eea-8614-aea7d9a30d62",
+      "name": "Próma mask"
+    },
+    {
+      "dateOfBirth": "1920-01-06T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "ddf1beb2-da2c-4715-9688-afa5353724ea",
+      "name": "Barackos Bernát"
+    },
+    {
+      "dateOfBirth": "1998-12-31T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "7826ecd8-40a5-41aa-a9d3-b18b26337fd7",
+      "name": "CRM Gábor"
+    },
+    {
+      "dateOfBirth": "2002-01-12T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "3c0a205f-c02c-4bcb-9855-bce5c39c155b",
+      "name": "5700"
+    },
+    {
+      "dateOfBirth": "2000-02-19T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "ea27e375-996a-454e-92b7-bd2a3fdfb91c",
+      "name": "Szója Tibor"
+    },
+    {
+      "dateOfBirth": "1981-04-13T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "27374177-0959-4e0d-8fc5-c1805fb6ca42",
+      "name": "Jenei Károly"
+    },
+    {
+      "dateOfBirth": "1977-08-15T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "Szoftverfejlesztés",
+      "id": "53507432-c4dc-4260-b439-c27e8683b14e",
+      "name": "Szekeres Henrik"
+    },
+    {
+      "dateOfBirth": "1959-01-09T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "fbc99170-91af-4c8c-91dc-c6c002e27a2d",
+      "name": "Újlaki Tas"
+    },
+    {
+      "dateOfBirth": "1989-08-25T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "a5dbfbd7-e764-4a00-a939-c6ce8f712cd9",
+      "name": "Pásztor Evelin"
+    },
+    {
+      "dateOfBirth": "2003-06-11T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "62441f17-b8cd-4ca0-9314-a45963d80466",
+      "organizationalUnitName": "Back office",
+      "id": "17ac4964-5480-45f8-880e-c6e2d4b7efbd",
+      "name": "Horváth Attila12"
+    },
+    {
+      "dateOfBirth": "1994-12-20T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "932f8f67-20af-40d1-b734-f7005f33b7ef",
+      "organizationalUnitName": "K1",
+      "id": "78ee71b5-6b9e-41a8-a8d9-cb421538ef05",
+      "name": "Nagy Richárd"
+    },
+    {
+      "dateOfBirth": "1966-05-05T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "daf19a18-77d7-4d78-893b-d52001ea234e",
+      "name": "Újlaki Czeczíla"
+    },
+    {
+      "dateOfBirth": "2002-05-15T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "6f6d2789-40b7-4035-b1d6-d77d0c649e6d",
+      "name": "Teszt"
+    },
+    {
+      "dateOfBirth": "1991-10-15T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "avatarId": "b9b711af-ac42-4864-b087-3b1f8ba2df0b",
+      "organizationalUnitName": "K1",
+      "id": "08303bd5-a290-48c3-8e44-d835f1474048",
+      "name": "Gál Zitus"
+    },
+    {
+      "dateOfBirth": "1998-04-01T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "id": "2b4c7034-335f-43d2-8806-df969272213a",
+      "name": "Übűl Abdul ÜüŰűÖöŐő"
+    },
+    {
+      "dateOfBirth": "2000-05-05T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "6df63bbb-9fda-461d-a56d-e2e33edeac0b",
+      "name": "Kalácsos Kata"
+    },
+    {
+      "dateOfBirth": "1997-03-26T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "e74b6bdf-9219-41ea-9d9e-e882410346ac",
+      "name": "Jogviszony Nélküli dolgozó"
+    },
+    {
+      "dateOfBirth": "1977-02-04T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "3d5c039f-7aad-4fcc-95b4-ee1f4797b2a8",
+      "name": "Szél Karolina"
+    },
+    {
+      "dateOfBirth": "1974-12-31T00:00:00Z",
+      "isInActivePeriod": true,
+      "hasModificationRequest": false,
+      "avatarId": "ad5f02dd-b9a3-4d10-85ea-d00ad42b0859",
+      "id": "09e47f8b-c0b3-404b-a4c5-f5d38962de17",
+      "name": "Japán Lonc"
+    },
+    {
+      "dateOfBirth": "1974-12-25T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "PHQ",
+      "id": "2625dacf-8582-45df-88b2-fbb4ec398267",
+      "name": "Bogdán Ricsike"
+    },
+    {
+      "dateOfBirth": "1992-01-01T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "id": "b39a56df-0108-4a59-a330-fcc9ecfa48e5",
+      "name": "Csuvi Bernadett"
+    },
+    {
+      "dateOfBirth": "1990-03-15T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "avatarId": "8eb9e2c9-9037-4518-9fc7-fdb2d47901b6",
+      "id": "b825ebe9-b810-4a08-9efd-fe4f0ad98c27",
+      "name": "Common szétszedése teszt"
+    },
+    {
+      "dateOfBirth": "2001-12-12T00:00:00Z",
+      "isInActivePeriod": false,
+      "hasModificationRequest": false,
+      "organizationalUnitName": "Szoftverfejlesztés",
+      "id": "3e79926b-e248-48de-a909-fe9d0323e63b",
+      "name": "Felvégi Zsuzsanna"
+    }
+  ]
+}

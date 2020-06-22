@@ -1,0 +1,22 @@
+<!-- Title -->
+<p class="font-weight-bold">Employee names</p>
+<!-- Employee list -->
+<div
+  class="d-flex flex-row flex-wrap w-100 border-top"
+  *ngFor="let employee of employeeList; index as i"
+>
+  <!-- Edit mode -->
+  <ng-container *ngIf="onEdit && employee.id === onEdit; else viewMode">
+    <app-edit-employee
+      [employee]="employee"
+      (cancelEdit)="cancelEdit($event)"
+    ></app-edit-employee>
+  </ng-container>
+  <!-- View Mode-->
+  <ng-template #viewMode>
+    <app-view-employee
+      [employee]="employee"
+      (editedEmployeeIdEmitter)="selectEdited($event)"
+    ></app-view-employee>
+  </ng-template>
+</div>

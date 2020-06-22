@@ -1,0 +1,10 @@
+<app-info-box *ngIf="translatedErrors && translatedErrors.length" [type]="'error'" (closeInfoBox)="closeInfoBox()">
+  <ng-template #templateRef>
+    <div class="mt-2" role="alert">
+      <div class="error-text" *ngFor="let error of translatedErrors; let i = index" id="error{{ i }}">
+        <span *ngIf="showDelimiter">- </span>
+        {{ error }}
+      </div>
+    </div>
+  </ng-template>
+</app-info-box>

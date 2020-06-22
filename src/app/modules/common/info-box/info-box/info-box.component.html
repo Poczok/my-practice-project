@@ -1,0 +1,6 @@
+<div *ngIf="!closed" [ngClass]="type" class="p-1 d-flex justify-content-between m-3 rounded">
+  <ng-container *ngTemplateOutlet="templateRef"></ng-container>
+  <div *ngIf="closeable">
+    <mat-icon class="cursor-pointer button-color icon-size" id="infoBoxCloseIcon" (click)="onClose()">close</mat-icon>
+  </div>
+</div>

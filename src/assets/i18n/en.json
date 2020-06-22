@@ -1,0 +1,9 @@
+{
+  "first": {
+    "name": "Név",
+    "text": "Komment"
+  },
+  "errors": {
+    "unknown_error": "Ismeretlen hiba"
+  }
+}
