@@ -27,7 +27,7 @@
         <ng-container>
           <div class="d-flex w-100">
             <storybook-textarea
-              id="'textInput'"
+              id="textInput"
               class="w-100 commentSize"
               [control]="textControl"
               label="{{ 'first.text' | translate }}"
@@ -45,12 +45,12 @@
         <ng-container>
           <div class="d-flex justify-content-around w-100">
             <storybook-flat-button
-              [id]="'save'"
+              id="save"
               [buttonText]="'Save'"
               (clicked)="save()"
             ></storybook-flat-button>
             <storybook-flat-button
-              [id]="'back'"
+              id="backOrCancelBtn"
               [buttonText]="backOrCancelBtn"
               (clicked)="backOrCancel()"
             ></storybook-flat-button>
@@ -66,17 +66,17 @@
         <div class="d-flex justify-content-end">
           <ng-container>
           <storybook-flat-button
-            id="'edit'"
+            id="edit{{i}}"
             buttonText="Edit"
-            [level]="'secondary'"
+            level="secondary"
             [disabled]="!viewMode"
             (clicked)="edit(i)"
           >
           </storybook-flat-button>
           <storybook-flat-button
-            id="'delete'"
+            id="delete{{i}}"
             buttonText="Del"
-            [level]="'secondary'"
+            level="secondary"
             [disabled]="!viewMode"
             (clicked)="delete(comment.id)"
           >
