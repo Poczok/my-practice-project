@@ -1,0 +1,17 @@
+<div class="dialog-view">
+<table *ngIf="raceResults" class="table">
+  <thead>
+    <tr>
+      <th colspan="2">modal id: {{id}}</th>
+    </tr>
+  </thead>
+  <tr>
+    <th>Neve</th>
+    <th>km</th>
+  </tr>
+  <tr *ngFor="let racer of raceResults">
+    <td>{{racer.name}}</td>
+    <td>{{racer.km}}</td>
+  </tr>
+</table>
+</div>

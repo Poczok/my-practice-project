@@ -231,7 +231,7 @@
       "isInActivePeriod": true,
       "hasModificationRequest": false,
       "id": "80ffd3e1-600f-42fa-9e77-55035c115044",
-      "name": "Szép Izabella"
+      "name": "Szép Izabellae"
     },
     {
       "dateOfBirth": "1977-02-04T00:00:00Z",
@@ -599,6 +599,20 @@
       "organizationalUnitName": "Szoftverfejlesztés",
       "id": "3e79926b-e248-48de-a909-fe9d0323e63b",
       "name": "Felvégi Zsuzsanna"
+    }
+  ],
+  "race-results": [
+    {
+      "name": "Sámson Adrián",
+      "km": 13
+    },
+    {
+      "name": "Nagy Alíz",
+      "km": 14
+    },
+    {
+      "name": "Borsos Zoltán",
+      "km": 15
     }
   ]
 }

@@ -1,6 +1,8 @@
 import { Inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { IComment } from '../model/comments.interface';
+import { IRaceTable } from '../modal-list/model/race-table.interface';
+import { Observable } from 'rxjs';
 @Injectable()
 export class BasicDataService {
   private _mockApi = 'http://localhost:3000/';
@@ -18,5 +20,8 @@ export class BasicDataService {
   }
   public deleteComment(id: number) {
     return this._http.delete<IComment>(`${this._mockApi}comments/${id}`);
+  }
+  public getRaceResults(): Observable<IRaceTable[]> {
+    return this._http.get<IRaceTable[]>(`${this._mockApi}race-results`);
   }
 }

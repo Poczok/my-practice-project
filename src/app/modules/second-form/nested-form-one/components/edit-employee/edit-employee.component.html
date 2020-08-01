@@ -1,23 +1,21 @@
 <div class="d-flex flex-row flex-nowrap">
   <storybook-input
-    [id]="'input'"
+    id="input"
     [control]="nameControl"
-    [label]="'Name input'"
+    label="nameinput"
     [errorTpl]="errorTpl"
   ></storybook-input>
   <ng-template #errorTpl
     ><app-validation [errors]="nameControl.errors"></app-validation
   ></ng-template>
-  <storybook-svg-button
-    [id]="'save'"
-    [type]="'save'"
-    [tooltipText]="'Edit'"
+  <storybook-icon-button
+    id="save"
+    icon="save"
     (clicked)="save()"
-  ></storybook-svg-button>
-  <storybook-svg-button
-    [id]="'discard'"
-    [type]="'discard'"
-    [tooltipText]="'Cancel'"
+  ></storybook-icon-button>
+  <storybook-icon-button
+    id="cancel"
+    icon="delete"
     (clicked)="cancel()"
-  ></storybook-svg-button>
+  ></storybook-icon-button>
 </div>

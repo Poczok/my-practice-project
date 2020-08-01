@@ -44,16 +44,16 @@
         <!-- Buttons -->
         <ng-container>
           <div class="d-flex justify-content-around w-100">
-            <storybook-function-button
+            <storybook-flat-button
               [id]="'save'"
               [buttonText]="'Save'"
               (clicked)="save()"
-            ></storybook-function-button>
-            <storybook-function-button
+            ></storybook-flat-button>
+            <storybook-flat-button
               [id]="'back'"
               [buttonText]="backOrCancelBtn"
               (clicked)="backOrCancel()"
-            ></storybook-function-button>
+            ></storybook-flat-button>
           </div>
         </ng-container>
       </div>
@@ -65,24 +65,22 @@
       <div class="card-body">
         <div class="d-flex justify-content-end">
           <ng-container>
-          <storybook-function-button
+          <storybook-flat-button
             id="'edit'"
             buttonText="Edit"
             [level]="'secondary'"
-            [type]="'edit'"
             [disabled]="!viewMode"
             (clicked)="edit(i)"
           >
-          </storybook-function-button>
-          <storybook-function-button
+          </storybook-flat-button>
+          <storybook-flat-button
             id="'delete'"
             buttonText="Del"
             [level]="'secondary'"
-            [type]="'discard'"
             [disabled]="!viewMode"
             (clicked)="delete(comment.id)"
           >
-          </storybook-function-button>
+          </storybook-flat-button>
           </ng-container>
         </div>
           <p class="d-flex justify-content-center">Név: {{ comment.name }}</p>
