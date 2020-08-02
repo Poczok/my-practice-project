@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ModalService } from '../../../services/modal.service';
 import { IRaceTable } from '../../model/race-table.interface';
 import { BasicDataService } from 'src/app/modules/services/basic-data.service';
@@ -32,7 +32,10 @@ export class ModalListComponent implements OnInit {
     this._clickCounter++;
     this._modalService.openTestDialog(
       this._clickCounter.toString(),
-      this._raceResults
+      this._raceResults,
+      (name: string, numberr: number) => {
+        console.log('HELLO :D pointless callback: ', name, numberr);
+      }
     );
   }
 }
