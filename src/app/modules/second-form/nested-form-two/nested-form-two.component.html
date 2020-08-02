@@ -1,1 +1,12 @@
-<p>nested-form-two works!</p>
+<p>Add employee</p>
+<div>
+  <ng-container *ngIf="form">
+    <form [formGroup]="form" autocomplete="off">
+      <div>
+        <mat-form-field>
+          <input matInput type="text" name="oE2pwDWNz7" id="nameControl" [formControl]="nameControl" placeholder="Neve">
+        </mat-form-field>
+      </div>
+    </form>
+  </ng-container>
+</div>
